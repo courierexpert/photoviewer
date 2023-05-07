@@ -43,9 +43,8 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "test": "echo \"No test specified\"",
-    "prepublishOnly": "npm run build",
-    "build:component": "rollup -c build/rollup.config.js",
-    "prepare": "yarn build:component || npm run build:component"
+    "prepublishOnly": "npm run build"
+    
   },
   "devDependencies": {
     "@capacitor/android": "^5.0.0",
